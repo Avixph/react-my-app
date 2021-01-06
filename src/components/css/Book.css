@@ -1,7 +1,36 @@
 :root {
   --first-color: #f7c970;
   --second-color: #f19a79;
+  --third-color: #ffff;
   --fourth-color: #c763ac;
+  --fifth-color: #7e5fbc;
 }
 
+main {
+  padding: 15px;
+  width: 550px;
+  height: 300px;
+  display: inline-block;
+  margin-top: 30px;
+  background-color: var(--first-color);
+  border: 4px solid var(--second-color);
+  box-shadow: var(--first-shawdow);
+  overflow: hidden;
+}
 
+main h1 {
+  text-align: center;
+  color: var(--fourth-color);
+}
+
+main img {
+  width: 30%;
+  float: left;
+}
+
+main p {
+  width: 20%;
+  float: right;
+  margin-right: 100px;
+  color: var(--fourth-color);
+}

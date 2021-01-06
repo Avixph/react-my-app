@@ -1,18 +1,22 @@
 :root {
   --first-color: #f7c970;
-  --second-color: #c763ac;
+  --second-color: #f19a79;
+  --third-color: #ffff;
+  --fourth-color: #c763ac;
+  --fifth-color: #7e5fbc;
 }
 
 footer {
   background: var(--first-color);
   padding: 10px 0 20px;
   text-align: center;
+  margin-top: 100px;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   bottom: 0;
 }
 footer h2 {
   font-size: 0.75rem;
-  color: var(--second-color);
+  color: var(--fourth-color);
   font-weight: 600;
 }
