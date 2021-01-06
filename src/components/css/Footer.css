@@ -1,0 +1,18 @@
+:root {
+  --first-color: #f7c970;
+  --second-color: #c763ac;
+}
+
+footer {
+  background: var(--first-color);
+  padding: 10px 0 20px;
+  text-align: center;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  bottom: 0;
+}
+footer h2 {
+  font-size: 0.75rem;
+  color: var(--second-color);
+  font-weight: 600;
+}
