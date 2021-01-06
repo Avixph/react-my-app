@@ -6,31 +6,59 @@
   --fifth-color: #7e5fbc;
 }
 
-main {
+/* main {
   padding: 15px;
   width: 500px;
   height: 300px;
   display: inline-block;
+  justify-content: center;
   margin-top: 30px;
   background-color: var(--first-color);
   border: 4px solid var(--second-color);
   box-shadow: var(--first-shawdow);
   overflow: hidden;
-}
+} */
 
+/* main .single-book {
+  margin: auto;
+  margin-left: 80rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  width: 500px;
+  height: 300px;
+  justify-content: center;
+  background-color: var(--first-color);
+  border: 4px solid var(--second-color);
+  box-shadow: var(--first-shawdow);
+  overflow: hidden;
+} */
+main div {
+  padding: 15px;
+  width: 555px;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+  background-color: var(--first-color);
+  border: 4px solid var(--second-color);
+}
 main h1 {
   text-align: center;
   color: var(--fourth-color);
 }
 
 main img {
-  width: 25%;
+  width: 20%;
   float: left;
   margin-left: 50px;
 }
 
 main p {
-  font-size: 1rem;
+  font-size: 0.87rem;
   width: 40%;
   float: right;
   overflow: hidden;

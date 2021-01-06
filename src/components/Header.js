@@ -8,13 +8,13 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="public/index.html">Home</a>
           </li>
           <li>
-            <a href="#">Books</a>
+            <a href="public/index.html">Books</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="public/index.html">About</a>
           </li>
         </ul>
       </nav>
